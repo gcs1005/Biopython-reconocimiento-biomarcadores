@@ -9,15 +9,14 @@ Los directorios que contienen los datos y los notebooks necesarios para evaluar 
 
     -ClustalOmega: Uno de ellos con todos los archivos que conforman el software del algoritmo al completo.
       
-            -Muscle: Otro únicamente contiene el archivo ejecutable.
+    -Muscle: Otro únicamente contiene el archivo ejecutable.
     
-            -clustal: en él se encuentra el software completo de Clustal, uno de los algoritmos de alineamiento múltiple empleados en el notebook de Python, Reconocimiento de biomarcadores con Biopython. 
+-clustal: en él se encuentra el software completo de Clustal, uno de los algoritmos de alineamiento múltiple empleados en el notebook de Python, Reconocimiento de biomarcadores con Biopython. 
     
-    \item \textbf{muscle}: en él se encuentra el archivo ejecutable de \texttt{Muscle}, otro de los algoritmos de alineamiento múltiple empleados en el \textit{notebook} de \texttt{Python}, \textit{Reconocimiento de biomarcadores con Biopython}.
+-muscle: en él se encuentra el archivo ejecutable de Muscle, otro de los algoritmos de alineamiento múltiple empleados en el notebook de Python, Reconocimiento de biomarcadores con Biopython.
     
-    \item \textbf{Datos}: directorio encargado de almacenar los datos brutos y procesados utilizados para el proyecto.
-        \begin{itemize}
-            \item \textbf{Datos pacientes enfermos}: carpeta que incluye las secuencias patológicas en bruto repartidas en cuatro archivos de formato \texttt{fasta}. Cada uno de ellos, correspondiente a cada uno de los genes: \textit{BRCA1,BRAC2,PIK3CA} y \textit{TP53}.
+-Datos: directorio encargado de almacenar los datos brutos y procesados utilizados para el proyecto.
+            -Datos pacientes enfermos}: carpeta que incluye las secuencias patológicas en bruto repartidas en cuatro archivos de formato \texttt{fasta}. Cada uno de ellos, correspondiente a cada uno de los genes: \textit{BRCA1,BRAC2,PIK3CA} y \textit{TP53}.
             
             \item \textbf{Datos pacientes sanos}: carpeta que incluye las secuencias control en bruto repartidas en cinco archivos de formato \texttt{fasta}. Cada uno de ellos, correspondiente a cada uno de los exones de los genes a estudio: exón 5 para \textit{BRCA1}, exones 2 y 11 para \textit{BRAC2}, y, por último, exones 5 y 8 para \textit{TP53}.
             
