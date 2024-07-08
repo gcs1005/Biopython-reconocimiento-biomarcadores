@@ -6,9 +6,11 @@ Repositorio desarrollado por Gabriel Collado Santamaría para el Trabajo Final d
 Tutorizado por Rubén Ruiz González (departamento de digitalización) y Antonia Maiara Marques do Nascimento (departamento de Biotecnología y Ciencias de los alimentos).
 
 **Abstract**
+
 El cáncer de mama es un problema socio-sanitario de primer nivel en todo el del mundo. Se trata del cáncer con mayor incidencia en mujeres, llevándose a su vez la vida de 685.000 personas en el mundo y 6.608 personas tan solo en España para el año 2022. 
 
 Ante esta evidente necesidad, y debido al compromiso de todo profesional sanitario, en este proyecto se pretendió diseñar un esquema de procesado de datos genéticos basado en la detección de biomarcadores característicos en el cáncer de mama.
+
 A través de la base de datos de NCBI y la aplicación del paquete de Biopython, se pudieron realizar sobre un notebook de Jupyter diferentes alineamientos pareados y múltiples, entre patológicos y controles empleando los algoritmos Muscle y Clustal.
  
 Gracias a dicho procesado bioinformático, y a pesar de las diversas dificultades experimentadas respecto a las condiciones presentadas por los datos, tuvo lugar al reconocimiento de mutaciones distintivas en aquellos genes vinculados con la patología. Entre ellas se destacan las sustituciones de un simple nucleótido; T>A para BRCA1, A>T para BRCA2, C>T para el exón 5 de TP53 y G>A para el exón 8 del mismo.
