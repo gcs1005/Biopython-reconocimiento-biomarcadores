@@ -1,6 +1,9 @@
 # Biopython-reconocimiento-biomarcadores
 ![200px-Biopython_logo](https://github.com/gcs1005/Biopython-reconocimiento-biomarcadores/assets/99986046/cb0cffb9-674f-4d2f-8eb5-4c2f1316946b)
 
+
+![800px-Biopython_logo](https://github.com/gcs1005/Biopython-reconocimiento-biomarcadores/assets/99986046/9f2b6182-117e-4c43-b78e-f8291c2f0e24)
+
 Repositorio desarrollado por Gabriel Collado Santamaría para el Trabajo Final de Grado del Análisis bioinformático para la detección de biomarcadores del cáncer empleando Biopython. 
 Tutorizado por Rubén Ruiz González (departamento de digitalización) y Antonia Maiara Marques do Nascimento (departamento de Biotecnología y Ciencias de los alimentos).
 
