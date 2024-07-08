@@ -6,9 +6,10 @@ Tutorizado por Rubén Ruiz González (departamento de digitalización) y Antonia
 Los directorios que contienen los datos y los notebooks necesarios para evaluar el trabajo presentado presenta la siguiente estructura:
 
   -Algoritmos de MSA: directorio en el cual se recogen los directorios de ambos algoritmos de alineamiento múltiple. 
+  
       -ClustalOmega: Uno de ellos con todos los archivos que conforman el software del algoritmo al completo.
-            
-            \item \textbf{Muscle}: Otro únicamente contiene el archivo ejecutable.
+      
+            -Muscle: Otro únicamente contiene el archivo ejecutable.
         \end{itemize}
     
     \item \textbf{clustal}: en él se encuentra el software completo de \texttt{Clustal}, uno de los algoritmos de alineamiento múltiple empleados en el \textit{notebook} de \texttt{Python}, \textit{Reconocimiento de biomarcadores con Biopython}.
