@@ -5,6 +5,8 @@
 Repositorio desarrollado por Gabriel Collado Santamaría para el Trabajo Final de Grado del Análisis bioinformático para la detección de biomarcadores del cáncer empleando Biopython. 
 Tutorizado por Rubén Ruiz González (departamento de digitalización) y Antonia Maiara Marques do Nascimento (departamento de Biotecnología y Ciencias de los alimentos).
 
+
+
 **ABSTRACT**
 
 El cáncer de mama es un problema socio-sanitario de primer nivel en todo el del mundo. Se trata del cáncer con mayor incidencia en mujeres, llevándose a su vez la vida de 685.000 personas en el mundo y 6.608 personas tan solo en España para el año 2022. 
@@ -18,17 +20,24 @@ Gracias a dicho procesado bioinformático, y a pesar de las diversas dificultade
 Los resultados han podido demostrar la gran aplicabilidad del paquete de Biopython como herramienta bioinformática para la detección de biomarcadores en el cáncer, una vez que se ha podido detectar mutaciones para los genes (BRCA1, BRCA2, PIK3CA y TP53) en células caracterizadas anteriormente como patológicas o normales para el cáncer de mama. Además, este trabajo, sienta las bases para futuros proyectos bioinformáticos de interés, y determina la importancia de la obtención de unos datos de calidad en etapas iniciales.
 
 
+
+
 **CONTENIDO DEL REPOSITORIO**
 
 Los directorios que contienen los datos y los notebooks necesarios para evaluar el trabajo elaborado, presenta la siguiente estructura:
 
 -Algoritmos de MSA: directorio en el cual se recogen los directorios de ambos algoritmos de alineamiento múltiple. 
+
     -ClustalOmega: Uno de ellos con todos los archivos que conforman el software del algoritmo al completo.
+    
     -Muscle: Otro únicamente contiene el archivo ejecutable.
     
+    
 -clustal: en él se encuentra el software completo de Clustal, uno de los algoritmos de alineamiento múltiple empleados en el notebook de Python, Reconocimiento de biomarcadores con Biopython. 
+
     
 -muscle: en él se encuentra el archivo ejecutable de Muscle, otro de los algoritmos de alineamiento múltiple empleados en el notebook de Python, Reconocimiento de biomarcadores con Biopython.
+
     
 -Datos: directorio encargado de almacenar los datos brutos y procesados utilizados para el proyecto.
 
@@ -45,8 +54,10 @@ Los directorios que contienen los datos y los notebooks necesarios para evaluar 
     
     
 -Documentación: directorio donde se encuentran los artículos considerados para la elaboración del proyecto. Hayan sido utilizados como fuente de inspiración o base teórica.
+
     
 -Imágenes: comprende las imágenes utilizadas en el desarrollo de la memoria y los anexos.
+
     
 -Resultados: directorio que integra los alineamientos y secuencias consenso obtenidas de la ejecución del notebook Reconocimiento de biomarcadores con Biopython.ipynb.
 
@@ -56,12 +67,13 @@ Los directorios que contienen los datos y los notebooks necesarios para evaluar 
                     
        -Resultados alineamiento muscle: abarca cuatro ficheros de extensión .afa, que contienen los alineamientos Muscle correspondientes a los exones pertenecientes a las secuencias controles filtradas.
                     
-                
+              
     -Alineamiento secuencias patológicas: carpeta con los alineamientos de las secuencias patológicas procesadas de Clustal y Muscle.
 
         -Resultados alineamiento clustal: recoge ocho ficheros de extensión .afa, cada uno de ellos, por cada exón de los cuatro genes a analizar. Contienen los alineamientos Clustal de las secuencias patológicas seleccionadas.
                     
         -Resultados alineamiento muscle: recoge ocho ficheros de extensión .afa, cada uno de ellos, por cada exón de los cuatro genes a analizar. Contienen los alineamientos Muscle de las secuencias patológicas seleccionadas.
+        
                     
     -Secuencias consenso: engloba todas las secuencias consenso de Clustal y Muscle, para patológicos y controles, conseguidas de la ejecución del notebook.
         
@@ -70,6 +82,7 @@ Los directorios que contienen los datos y los notebooks necesarios para evaluar 
             -Clustal: contiene cuatro archivos .fasta correspondientes a las secuencias consenso control de Clustal.
                             
             -Muscle:contiene cuatro archivos .fasta correspondientes a las secuencias consenso control de Muscle.
+            
                         
         -Secuencias consenso patológicas: carpeta dónde se incluyen las secuencias consenso provenientes de Clustal y Muscle relativas a las secuencias patológicas.
          
