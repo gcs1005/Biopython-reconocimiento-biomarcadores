@@ -27,10 +27,8 @@ Los resultados han podido demostrar la gran aplicabilidad del paquete de Biopyth
 Los directorios que contienen los datos y los notebooks necesarios para evaluar el trabajo elaborado, presenta la siguiente estructura:
 
 -Algoritmos de MSA: directorio en el cual se recogen los directorios de ambos algoritmos de alineamiento múltiple. 
-
-    -ClustalOmega: Uno de ellos con todos los archivos que conforman el software del algoritmo al completo.
-    
-    -Muscle: Otro únicamente contiene el archivo ejecutable.
+ -ClustalOmega: Uno de ellos con todos los archivos que conforman el software del algoritmo al completo.
+ -Muscle: Otro únicamente contiene el archivo ejecutable.
     
     
 -clustal: en él se encuentra el software completo de Clustal, uno de los algoritmos de alineamiento múltiple empleados en el notebook de Python, Reconocimiento de biomarcadores con Biopython. 
