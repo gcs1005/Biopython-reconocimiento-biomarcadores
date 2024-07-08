@@ -48,7 +48,6 @@ Los directorios que contienen los datos y los notebooks necesarios para evaluar 
     -Secuencias control filtradas: carpeta que incluye las secuencias secuencias control ya procesadas, listas para el análisis conveniente. El conjunto de estas, está formado por cinco archivos de formato fasta de menor tamaño y mismo nombre que los originales.
             
     -Secuencias patológicas filtradas: directorio que contiene las secuencias patológicas ya procesadas en formato fasta. Hasta ocho archivos se llegan a incluir en este directorio, uno por cada uno de los exones de mayor frecuencia a estudiar, dos por cada gen: 5 y 19 de BRCA1, 2 y 11 de BRCA2, 9 y 20 de PIK3CA; y 5 y 8 de TP53.
-
             
     -Tablas variantes: este directorio comprende dos archivos de extensión csv, Tabla variantes BRCA2 y PIK3CA. Cada uno de ellos engloba las variantes existentes documentadas en gnomAD para un gen en concreto.
     
